@@ -8,6 +8,7 @@ TagManager:
   - GlassTrash
   - BioTrash
   - PlasticTrash
+  - BlackTrashBin
   layers:
   - Default
   - TransparentFX
