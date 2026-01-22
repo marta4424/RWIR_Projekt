@@ -9,6 +9,7 @@ TagManager:
   - BioTrash
   - PlasticTrash
   - BlackTrashBin
+  - PlayerRightHand
   layers:
   - Default
   - TransparentFX

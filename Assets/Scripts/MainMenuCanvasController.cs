@@ -5,7 +5,12 @@ public class MainMenuCanvasController : MonoBehaviour
 {
     public void graj()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("Main_Scene");
+    }
+
+    public void wrocDoMenu()
+    {
+        SceneManager.LoadScene("Main_Menu");
     }
 
     public void wyjdü()

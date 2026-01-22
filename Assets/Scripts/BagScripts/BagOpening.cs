@@ -17,18 +17,11 @@ public class BagOpening : MonoBehaviour
     private void OnEnable()
     {
         interactable.selectEntered.AddListener(OnGrabItem);
-        interactable.hoverEntered.AddListener(OnHoverStart);
     }
-    
+
     private void OnDisable()
     {
         interactable.selectEntered.RemoveListener(OnGrabItem);
-        interactable.hoverEntered.RemoveListener(OnHoverStart);
-    }
-
-    private void OnHoverStart(HoverEnterEventArgs args)
-    {
-        Debug.Log("Widzê otwór");
     }
 
     private void OnGrabItem(SelectEnterEventArgs args)
