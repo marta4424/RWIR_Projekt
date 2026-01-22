@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -13,11 +14,13 @@ public class GameManager : MonoBehaviour
     [SerializeField] private int collectedTrashCount = 0;
     private bool gameEnded = false;
 
-    private void Start()
+    private IEnumerator Start()
     {
+        Debug.Log("GameManager: Czekam na wygenerowanie œmieci...");
+        yield return new WaitForSeconds(0.2f);
         countAllTrash();
     }
-
+    
     private void OnEnable()
     {
         TrashEvents.OnScoreAdded += onTrashDisposed;
