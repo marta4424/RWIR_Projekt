@@ -3206,7 +3206,7 @@ MonoBehaviour:
   - {fileID: 8090211336754984291, guid: 5011f4820d7afcd478acb1f21893406c, type: 3}
   - {fileID: 8090211336754984291, guid: 40caad54c594e2d449c1e9b849d0e637, type: 3}
   - {fileID: 8090211336754984291, guid: 899a0d44db68c7e4ca9c9bc22313cfb0, type: 3}
-  trashNum: 200
+  trashNum: 16
   spawnArea: {fileID: 1949673194}
   terrainLayer:
     serializedVersion: 2
@@ -3230,7 +3230,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 150, y: 20, z: 150}
+  m_Size: {x: 10, y: 10, z: 10}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1949673195
 Transform:
@@ -3241,7 +3241,7 @@ Transform:
   m_GameObject: {fileID: 1949673192}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 100, y: 10, z: 100}
+  m_LocalPosition: {x: 131.6, y: 5.66, z: 100}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
